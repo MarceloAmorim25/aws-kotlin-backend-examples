@@ -5,7 +5,11 @@ Repositório de estudo para aplicações de backend desenvolvidas em Kotlin, uti
 
 A proposta desse repositório é trazer exemplos de aplicações em Kotlin que utilizam 
 serviços AWS. Para isso será utilizada o projeto Localstack para simular esses serviços
-localmente.
+localmente. O objetivo inicial foi encontrar uma maneira prática de estudar para as
+certificações AWS:
+
+1. AWS Certified Solutions Architect - Associate (SAA - C02)
+2. AWS Certified Solutions Architec - Professional (SAP - C01)
 
 O que será utilizado para desenvolver os projetos?
 
@@ -17,78 +21,7 @@ O que será utilizado para desenvolver os projetos?
 
 Localstack: https://github.com/localstack/localstack
 
-A ideia é passar por todos os serviços que estão na versão FREE do Localstack:
+A ideia é passar por todos os serviços que estão na versão gratuita do Localstack:
 
-### ACM
-
-
-### API Gateway
-
-
-### CloudFormation
-
-
-### CloudWatch
-
-
-### CloudWatch Logs
-
-
-### DynamoDB
-
-
-### DynamoDB Streams
-
-
-### EC2
-
-
-### Elasticsearch Service
-
-
-### EventBridge (CloudWatch Events)
-
-
-### Firehose
-
-
-### IAM
-
-
-### Kinesis
-
-
-### KMS
-
-
-### Lambda
-
-
-### Redshift
-
-
-### Route53
-
-
-### S3
-
-
-### SecretsManager
-
-
-### SES
-
-
-### SNS
-
-
-### SQS
-
-
-### SSM
-
-
-### StepFunctions
-
-
-### STS
+Observação: os serviços que não tiverem disponíveis na Localstack serão utilizados
+via AWS CLI.
