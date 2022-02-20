@@ -3,6 +3,8 @@ Repositório de estudo para aplicações de backend desenvolvidas em Kotlin, uti
 
 ## Sobre o repositório
 
+- Divisão de pastas: seguindo os itens do Guia do Exame (Apêndice - Recursos e produtos AWS)
+
 A proposta desse repositório é trazer exemplos de aplicações em Kotlin que utilizam 
 serviços AWS. Para isso será utilizada o projeto Localstack para simular esses serviços
 localmente. O objetivo inicial foi encontrar uma maneira prática de estudar para as
