@@ -1,0 +1,35 @@
+version: '3.0'
+
+services:
+
+  localstack:
+    image: localstack/localstack:latest
+    environment:
+      - AWS_DEFAULT_REGION=sa-east-1
+      - AWS_SESSION_TOKEN=teste
+      - EDGE_PORT=4566
+      - SERVICES=sqs
+    ports:
+      - '4566:4566'
+
+  setup-fila-sqs:
+    image: amazon/aws-cli
+    volumes:
+      - ./aws:/projeto/unb
+    environment:
+      - AWS_ACCESS_KEY_ID=teste
+      - AWS_SECRET_ACCESS_KEY=teste
+      - AWS_DEFAULT_REGION=sa-east-1
+      - AWS_DEFAULT_OUTPUT=json
+      - AWS_SESSION_TOKEN=teste
+    entrypoint: /bin/sh -c
+    command: >
+      "
+        echo [INFO] criando modulo de fila SQS...
+        sleep 10
+        # Cria fila SQS
+        aws sqs create-queue --endpoint-url=http://localstack:4566 --queue-name fila_trabalho_lp;
+        echo [INFO] OK...
+      "
+    depends_on:
+      - localstack

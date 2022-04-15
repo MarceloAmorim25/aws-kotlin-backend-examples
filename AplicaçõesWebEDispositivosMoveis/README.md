@@ -1,3 +1,0 @@
-# Recursos
-
-- AWS AppSync

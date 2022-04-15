@@ -1,3 +1,0 @@
-# Recursos
-
-- Amazon Managed Blockchain
