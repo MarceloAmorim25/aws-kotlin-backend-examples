@@ -1,29 +1,28 @@
-# aws-kotlin-backend-examples
-Repositório de estudo para aplicações de backend desenvolvidas em Kotlin, utilizando serviços da AWS (Localstack)
+# Sobre o repositório
 
-## Sobre o repositório
+- A ideia desse repositório é criar um ambiente de estudo direcionado aos recursos da AWS.
 
-- Divisão de pastas: seguindo os itens do Guia do Exame (Apêndice - Recursos e produtos AWS)
+# Ferramentas de estudo
 
-A proposta desse repositório é trazer exemplos de aplicações em Kotlin que utilizam 
-serviços AWS. Para isso será utilizada o projeto Localstack para simular esses serviços
-localmente. O objetivo inicial foi encontrar uma maneira prática de estudar para as
-certificações AWS:
+### AWS Architect Labs
 
-1. AWS Certified Solutions Architect - Associate (SAA - C02)
-2. AWS Certified Solutions Architec - Professional (SAP - C01)
+- https://wellarchitectedlabs.com/
 
-O que será utilizado para desenvolver os projetos?
 
-- Kotlin
-- Spring
-- Terraform
-- Docker
-- Localstack
+### Plano de certificações
 
-Localstack: https://github.com/localstack/localstack
+![](imgs/plano_certificacoes.drawio.png)
 
-A ideia é passar por todos os serviços que estão na versão gratuita do Localstack:
+## Desenhos
 
-Observação: os serviços que não tiverem disponíveis na Localstack serão utilizados
-via AWS CLI.
+https://arcentry.com/
+
+Drawio
+
+## Links úteis
+
+https://aws.amazon.com/architecture/reference-architecture-diagrams/?solutions-all.sort-by=item.additionalFields.sortDate&solutions-all.sort-order=desc&whitepapers-main.sort-by=item.additionalFields.sortDate&whitepapers-main.sort-order=desc&awsf.whitepapers-tech-category=*all&awsf.whitepapers-industries=*all#Filter_by.3A
+
+
+https://aws.amazon.com/pt/architecture/?cards-all.sort-by=item.additionalFields.sortDate&cards-all.sort-order=desc&awsf.content-type=content-type%23reference-arch-diagram&awsf.methodology=*all&awsf.tech-category=*all&awsf.industries=*all&awsm.page-cards-all=1
+
