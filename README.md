@@ -4,6 +4,12 @@
 
 # Ferramentas de estudo
 
+### Arquitetura AWS - Blog
+
+https://aws.amazon.com/blogs/architecture/category/application-integration/
+
+https://aws.amazon.com/blogs/architecture/lets-architect-serverless-architecture-on-aws/
+
 ### AWS Architect Labs
 
 - https://wellarchitectedlabs.com/
@@ -26,3 +32,11 @@ https://aws.amazon.com/architecture/reference-architecture-diagrams/?solutions-a
 
 https://aws.amazon.com/pt/architecture/?cards-all.sort-by=item.additionalFields.sortDate&cards-all.sort-order=desc&awsf.content-type=content-type%23reference-arch-diagram&awsf.methodology=*all&awsf.tech-category=*all&awsf.industries=*all&awsm.page-cards-all=1
 
+
+## Arquiteturas de referência
+
+https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/aws-reference-architecture-hybrid-domain-consistency-ra.pdf?did=wp_card&trk=wp_card
+
+https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/serverless-strategy-for-dynamic-pricing-ra.pdf
+
+https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/serverless-reservation-system-on-aws-ra.pdf?did=wp_card&trk=wp_card
