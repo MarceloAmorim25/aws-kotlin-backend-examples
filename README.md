@@ -2,6 +2,8 @@
 
 - A ideia desse repositório é criar um ambiente de estudo direcionado aos recursos da AWS.
 
+https://aws.amazon.com/architecture/reference-architecture-diagrams/?solutions-all.sort-by=item.additionalFields.sortDate&solutions-all.sort-order=desc&whitepapers-main.sort-by=item.additionalFields.sortDate&whitepapers-main.sort-order=desc&awsf.whitepapers-tech-category=*all&awsf.whitepapers-industries=*all&whitepapers-main.q=serverless&whitepapers-main.q_operator=AND&awsm.page-whitepapers-main=4
+
 # Ferramentas de estudo
 
 ### Arquitetura AWS - Blog
