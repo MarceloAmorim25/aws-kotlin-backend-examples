@@ -1,1 +1,0 @@
-https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/contextual-intelligence-for-advertising-ra.pdf?did=wp_card&trk=wp_card

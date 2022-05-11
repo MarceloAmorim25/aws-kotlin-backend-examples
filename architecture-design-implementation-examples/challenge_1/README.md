@@ -1,1 +1,0 @@
-https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/serverless-reservation-system-on-aws-ra.pdf?did=wp_card&trk=wp_card

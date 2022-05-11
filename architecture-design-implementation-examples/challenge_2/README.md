@@ -1,1 +1,0 @@
-https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/serverless-strategy-for-dynamic-pricing-ra.pdf
