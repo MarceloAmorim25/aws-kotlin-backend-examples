@@ -1,1 +1,0 @@
-https://serverlessland.com/patterns/apigw-lambda-dynamodb-sam-java

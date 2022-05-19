@@ -33,6 +33,12 @@ Instalação: https://github.com/localstack/localstack
 
 Essas serão as duas referências utilizadas para estudar os serviços AWS.
 
+
+### Documentação oficial da AWS CLI
+
+https://docs.aws.amazon.com/cli/latest/reference/#available-services
+
+
 ### Diagramas arquiteturais de referência da AWS
 
 Essa referência terá como utilidade treinarmos a implementação de diagramas já desenhados pelo time de engenharia da Amazon.
