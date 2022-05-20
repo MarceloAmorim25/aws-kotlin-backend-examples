@@ -1,23 +1,24 @@
-#========================================================================
-// DynamoDB section
-#========================================================================
-
-resource "aws_dynamodb_table" "movie_table" {
-  name           = var.dynamodb_table
+resource "aws_dynamodb_table" "challenge-table-one" {
+  name           = "ChallengeTableOne"
   billing_mode   = "PROVISIONED"
   read_capacity  = 20
   write_capacity = 20
-  hash_key       = "year"
-  range_key      = "title"
+  hash_key       = "partition_key"
+  range_key      = "sort_key"
 
   attribute {
-    name = "year"
-    type = "N"
-  }
-  
-  attribute {
-    name = "title"
+    name = "partition_key"
     type = "S"
   }
 
+  attribute {
+    name = "sort_key"
+    type = "S"
+  }
+
+  tags = {
+    Name        = "dynamodb-table-one"
+    Environment = "dev"
+  }
+  
 }

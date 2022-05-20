@@ -10,11 +10,9 @@ data "archive_file" "lambda_zip" {
 }
 
 resource "aws_lambda_function" "apigw_lambda_ddb" {
+
   function_name = "${var.lambda_name}-${random_string.random.id}"
   description = "serverlessland pattern"
-
-  s3_bucket = aws_s3_bucket.lambda_bucket.id
-  s3_key    = aws_s3_object.this.key
 
   runtime = "python3.8"
   handler = "app.lambda_handler"
