@@ -33,6 +33,9 @@ Instalação: https://github.com/localstack/localstack
 
 Essas serão as duas referências utilizadas para estudar os serviços AWS.
 
+### Exemplos de setups (fundamental no projeto - base para tudo que fiz aqui)
+
+https://github.com/aws-samples/serverless-patterns
 
 ### Documentação oficial da AWS CLI
 
