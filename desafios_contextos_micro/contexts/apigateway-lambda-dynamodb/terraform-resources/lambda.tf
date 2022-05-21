@@ -6,10 +6,10 @@ resource "aws_lambda_function" "apigw_lambda_ddb" {
 
   function_name = "${var.lambda_name}-${random_string.random.id}"
   filename      = "${path.module}/lambda.zip"
-  description   = "serverlessland pattern"
+  description   = "testing lambda function with api gateway"
 
   runtime = "python3.8"
-  handler = "app.lambda_handler"
+  handler = "lambda_function.lambda_handler"
 
   role = aws_iam_role.lambda_exec.arn
 
