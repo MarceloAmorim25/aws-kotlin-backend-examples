@@ -5,7 +5,7 @@
 resource "aws_lambda_function" "apigw_lambda_ddb" {
 
   function_name = "${var.lambda_name}-${random_string.random.id}"
-  filename      = "${path.module}/lambda.zip"
+  filename      = "${path.module}/lambda_dynamo_2.zip"
   description   = "testing lambda function with api gateway"
 
   runtime = "python3.8"
