@@ -11,8 +11,6 @@ terraform {
 
 provider "aws" {
   region     = "sa-east-1"
-  access_key = ""
-  secret_key = ""
 }
 
 data "aws_caller_identity" "current" {}
