@@ -5,6 +5,34 @@ Amazon Web Services (AWS).
 
 É notório que o número de serviços é extenso e às vezes é difícil saber por onde começar. A ideia aqui, portanto, é criar um direcionamento para que as pessoas possam conhecer e ter domínio dessas ferramentas.
 
+# Ideia de apps 
+
+### Frontend
+
+1 - App desktop que ajudasse a desenhar arquitetura de um sistema;
+
+2 - Esse app fornecerá os arquivos terraform necessários para subir o sistema desenhado na AWS;
+
+### Backend
+
+- Antes de desenvolver a interface gráfica, vou desenvolver os backends;
+
+- A API será desenvolvida em Java + Spring;
+
+- Será uma API em arquitetura monolítica.
+
+- São duas funcionalidades principais:
+
+a) retornar os arquivos terraforms e o cloudformation para subir a infra;
+
+b) analisar a arquitetura do sistema e gerar um relatório;
+
+PRINCIPAIS ELEMENTOS:
+
+- componentes
+
+- conexões
+
 # Resumo geral do projeto
 
 A ideia é aprendermos sobre AWS por meio de desafios práticos. Os desafios serão divididos em duas seções:

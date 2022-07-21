@@ -1,1 +1,0 @@
-https://serverlessland.com/patterns/apigw-http-sqs-lambda-cdk

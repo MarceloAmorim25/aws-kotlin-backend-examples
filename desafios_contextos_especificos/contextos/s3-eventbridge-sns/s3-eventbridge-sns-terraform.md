@@ -1,1 +1,0 @@
-https://serverlessland.com/patterns/s3-eventbridge-sns-terraform
