@@ -30,3 +30,22 @@ Dados são armazenados em, no mínimo, 3 Availability Zones;
 - Bucket Policies (ações permitidas ou negadas)
 - "Srong Read-After-Write Consistency": sempre pegar a versão mais atualizada do objeto
 
+## Desenhos
+
+### Características gerais
+
+![estrutura geral](./desenhos/S3-s3.drawio.png)
+
+### Tipos de armazenamentos do S3
+
+![estrutura geral](./desenhos/S3-storage-classes.drawio.png)
+
+### Glacier e Deep Archive [mais baratos]
+
+![estrutura geral](./desenhos/S3-glacier and deep archive.drawio.png)
+
+### Criptografia dos dados em trânsito e armazenados
+
+![estrutura geral](./desenhos/S3-encryption.drawio.png)
+
+
